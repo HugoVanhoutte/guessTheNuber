@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+</head>
+  <body>
+        <header><h1>Guess the number !</h1></header>
+        <main>
+            <div id="guess-div">
+                <input type="number" placeholder="?" id="user-guess" autofocus>
+                <input type="button" value="Guess" id="guess-button">
+                <p id="guess-plus-or-minus"> </p>
+                <input type="button" value="New Game" id="reset">
+            </div>
+            <div id="tries">
+                <p>Remaining tries: </p>
+                <p id="nb-tenta">10</p>
+                <h2>Number tried :</h2>
+                <ul id="list-tries">
+
+                </ul>
+            </div>
+        </main>
+  <script src="app.js"></script>
+  </body>
+</html>
